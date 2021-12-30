@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#slide">
                 <img src="assets/Logo4Tech(Rounded).png" alt="Logo 4Tech" width="89" height="36">
@@ -45,7 +45,7 @@
     </nav>
 
     <!-- Slide -->
-    <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="main-carousel" class="carousel slide mt-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -64,17 +64,17 @@
             <div class="carousel-item">
                 <div class="overlay-image" style="background-image: url(./assets/Image2.jpg);"></div>
                 <div class="carousel-caption text-md-start">
-                    <h1>Example headline.</h1>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    <h1 class="fw-bold display-4">EXPERTOS EN TÉCNOLOGIA</h1>
+                    <p class="display-6">Soluciones técnologicas de la mano de profesionales en desarrollo.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Solicitar servicio</a></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="overlay-image" style="background-image: url(./assets/Image3.jpg);"></div>
                 <div class="carousel-caption text-md-start">
-                    <h1>Example headline.</h1>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    <h1 class="fw-bold display-4">EXPERTOS EN TÉCNOLOGIA</h1>
+                    <p class="display-6">Soluciones técnologicas de la mano de profesionales en desarrollo.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Solicitar servicio</a></p>
                 </div>
             </div>
         </div>
@@ -126,8 +126,36 @@
         </div>
     </section>
 
+    <section class="py-4 bg-dark" id="portfolio">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2 class="fw-bold text-light display-6">Nuestros clientes</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-12 col-md-3">
+                    <div class="card-opinion">
+                        <div class="img-profile">
+                            <div class="star">
+                                <span class="iconify" data-icon="el:star-alt" style="color: #F2CB00;"></span>
+                                <span class="bg-white" style="border-radius: 12px;"></span>
+                            </div>
+                            <img src="/assets/profile3.png" alt="perfil" class="perfil">
+                        </div>
+                        <div class="contenido-opinion d-flex flex-column text-light px-4 pt-5 pb-4">
+                            <h5>Juliana Alvarez</h5>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet purus nec ex ultricies porta."</p>
+                            <a href="#" class="btn btn-danger">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
 
 </html>

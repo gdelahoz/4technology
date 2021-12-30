@@ -29,3 +29,34 @@
 .item-img-s1{
     height: 150px;
 }
+
+.contenido-opinion{
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.img-profile{
+    width: 76px;
+    height: 76px;
+    left: 103px;
+    top: 0px;
+}
+
+.star{
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 52px;
+}
+
+.perfil{
+    width: 76px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
