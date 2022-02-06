@@ -68,3 +68,11 @@ body{
     box-sizing: border-box;
     border-radius: 50%;
 }
+
+@media (min-width: 768px){
+    .w-750{
+        width: 750px;
+    }
+}
+
+
